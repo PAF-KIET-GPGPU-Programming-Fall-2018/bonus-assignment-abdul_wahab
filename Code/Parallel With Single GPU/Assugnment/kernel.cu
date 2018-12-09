@@ -127,7 +127,7 @@ int main(int argc, char *argv[])
 	for (run = 0; run < 1; run++) {
 		for (i = 0; i < 7; i++) timing[i] = 0.0f;
 
-		nbodies = 5000;// atoi(argv[0]);
+		nbodies = 25000;// atoi(argv[0]);
 		/*if (nbodies < 1) {
 			fprintf(stderr, "nbodies is too small: %d\n", nbodies);
 			exit(-1);
@@ -141,7 +141,7 @@ int main(int argc, char *argv[])
 		while ((nnodes & (WARPSIZE - 1)) != 0) nnodes++;
 		nnodes--;
 
-		timesteps =1;// atoi(argv[0]);
+		timesteps =2;// atoi(argv[0]);
 		dtime = 0.025;  dthf = dtime * 0.5f;
 		epssq = 0.05 * 0.05;
 		itolsq = 1.0f / (0.5 * 0.5);

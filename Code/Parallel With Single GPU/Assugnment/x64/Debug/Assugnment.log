@@ -1,116 +1,116 @@
-﻿Build started 12/8/2018 7:37:03 PM.
-     1>Project "C:\Users\lenovo\Desktop\Cuda Assignmet\Assugnment\Assugnment\Assugnment.vcxproj" on node 2 (Build target(s)).
+﻿Build started 12/9/2018 11:29:45 PM.
+     1>Project "C:\Users\lenovo\Documents\GitHub\bonus-assignment-abdul_wahab\Code\Parallel With Single GPU\Assugnment\Assugnment.vcxproj" on node 2 (Build target(s)).
      1>AddCudaCompileDeps:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" /I. /FIcuda_runtime.h /c "C:\Users\lenovo\Desktop\Cuda Assignmet\Assugnment\Assugnment\kernel.cu" 
-     1>Project "C:\Users\lenovo\Desktop\Cuda Assignmet\Assugnment\Assugnment\Assugnment.vcxproj" (1) is building "C:\Users\lenovo\Desktop\Cuda Assignmet\Assugnment\Assugnment\Assugnment.vcxproj" (1:2) on node 2 (CudaBuildCore target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" /I. /FIcuda_runtime.h /c "C:\Users\lenovo\Documents\GitHub\bonus-assignment-abdul_wahab\Code\Parallel With Single GPU\Assugnment\kernel.cu" 
+     1>Project "C:\Users\lenovo\Documents\GitHub\bonus-assignment-abdul_wahab\Code\Parallel With Single GPU\Assugnment\Assugnment.vcxproj" (1) is building "C:\Users\lenovo\Documents\GitHub\bonus-assignment-abdul_wahab\Code\Parallel With Single GPU\Assugnment\Assugnment.vcxproj" (1:2) on node 2 (CudaBuildCore target(s)).
      1>CudaBuildCore:
          Compiling CUDA source file kernel.cu...
-         cmd.exe /C "C:\Users\lenovo\AppData\Local\Temp\tmp97ca393a5ae148798cf9aca411e0f3f9.cmd"
-         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\lenovo\Desktop\Cuda Assignmet\Assugnment\Assugnment\kernel.cu"
+         cmd.exe /C "C:\Users\lenovo\AppData\Local\Temp\tmpcb7ea0a845b144ec9d5998ac5db28240.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\lenovo\Documents\GitHub\bonus-assignment-abdul_wahab\Code\Parallel With Single GPU\Assugnment\kernel.cu"
          
-         C:\Users\lenovo\Desktop\Cuda Assignmet\Assugnment\Assugnment>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\lenovo\Desktop\Cuda Assignmet\Assugnment\Assugnment\kernel.cu" 
-     1>c:\users\lenovo\desktop\cuda assignmet\assugnment\assugnment\kernelss.cu(648): warning : function "__all"
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(170): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(171): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(172): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(173): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(174): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(175): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(176): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(177): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(178): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(179): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(180): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(181): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(182): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(183): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(185): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(186): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(187): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(188): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(189): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(190): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(229): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(230): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(231): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(232): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(233): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(234): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(235): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(247): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(258): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(266): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(272): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(278): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(284): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(290): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(292): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(297): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(298): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(299): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(300): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(301): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(302): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(62): warning : variable "runtime" was declared but never referenced
-     1>ptxas C : /Users/lenovo/AppData/Local/Temp/tmpxft_000038b0_00000000-6_kernel.ptx, line 5412; warning : Instruction 'vote' without '.sync' is deprecated since PTX ISA version 6.0 and will be discontinued in a future PTX ISA version
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(170): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(171): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(172): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(173): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(174): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(175): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(176): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(177): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(178): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(179): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(180): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(181): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(182): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(183): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(185): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(186): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(187): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(188): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(189): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(190): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(229): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(230): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(231): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(232): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(233): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(234): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(235): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(247): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(258): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(266): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(272): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(278): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(284): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(290): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(292): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(297): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(298): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(299): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(300): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(301): warning : conversion from a string literal to "char *" is deprecated
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(302): warning : conversion from a string literal to "char *" is deprecated
+         C:\Users\lenovo\Documents\GitHub\bonus-assignment-abdul_wahab\Code\Parallel With Single GPU\Assugnment>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\lenovo\Documents\GitHub\bonus-assignment-abdul_wahab\Code\Parallel With Single GPU\Assugnment\kernel.cu" 
+     1>c:\users\lenovo\documents\github\bonus-assignment-abdul_wahab\code\parallel with single gpu\assugnment\kernelss.cu(648): warning : function "__all"
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(170): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(171): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(172): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(173): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(174): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(175): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(176): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(177): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(178): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(179): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(180): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(181): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(182): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(183): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(185): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(186): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(187): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(188): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(189): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(190): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(229): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(230): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(231): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(232): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(233): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(234): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(235): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(247): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(258): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(266): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(272): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(278): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(284): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(290): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(292): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(297): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(298): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(299): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(300): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(301): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(302): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(62): warning : variable "runtime" was declared but never referenced
+     1>ptxas C : /Users/lenovo/AppData/Local/Temp/tmpxft_000024ac_00000000-6_kernel.ptx, line 5412; warning : Instruction 'vote' without '.sync' is deprecated since PTX ISA version 6.0 and will be discontinued in a future PTX ISA version
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(170): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(171): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(172): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(173): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(174): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(175): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(176): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(177): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(178): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(179): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(180): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(181): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(182): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(183): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(185): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(186): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(187): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(188): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(189): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(190): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(229): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(230): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(231): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(232): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(233): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(234): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(235): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(247): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(258): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(266): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(272): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(278): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(284): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(290): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(292): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(297): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(298): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(299): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(300): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(301): warning : conversion from a string literal to "char *" is deprecated
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(302): warning : conversion from a string literal to "char *" is deprecated
          kernel.cu
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(145): warning C4305: '=': truncation from 'double' to 'float'
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(146): warning C4305: '=': truncation from 'double' to 'float'
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(199): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(208): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(209): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(210): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(224): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(225): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(226): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-     1>C:/Users/lenovo/Desktop/Cuda Assignmet/Assugnment/Assugnment/kernel.cu(62): warning C4101: 'runtime': unreferenced local variable
-     1>Done Building Project "C:\Users\lenovo\Desktop\Cuda Assignmet\Assugnment\Assugnment\Assugnment.vcxproj" (CudaBuildCore target(s)).
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(145): warning C4305: '=': truncation from 'double' to 'float'
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(146): warning C4305: '=': truncation from 'double' to 'float'
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(199): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(208): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(209): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(210): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(224): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(225): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(226): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>C:/Users/lenovo/Documents/GitHub/bonus-assignment-abdul_wahab/Code/Parallel With Single GPU/Assugnment/kernel.cu(62): warning C4101: 'runtime': unreferenced local variable
+     1>Done Building Project "C:\Users\lenovo\Documents\GitHub\bonus-assignment-abdul_wahab\Code\Parallel With Single GPU\Assugnment\Assugnment.vcxproj" (CudaBuildCore target(s)).
      1>Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lenovo\Desktop\Cuda Assignmet\Assugnment\x64\Debug\Assugnment.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\lenovo\Desktop\Cuda Assignmet\Assugnment\x64\Debug\Assugnment.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lenovo\Desktop\Cuda Assignmet\Assugnment\x64\Debug\Assugnment.lib" /MACHINE:X64 x64\Debug\kernel.cu.obj
-         Assugnment.vcxproj -> C:\Users\lenovo\Desktop\Cuda Assignmet\Assugnment\x64\Debug\Assugnment.exe
-     1>Done Building Project "C:\Users\lenovo\Desktop\Cuda Assignmet\Assugnment\Assugnment\Assugnment.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lenovo\Documents\GitHub\bonus-assignment-abdul_wahab\Code\Parallel With Single GPU\x64\Debug\Assugnment.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\lenovo\Documents\GitHub\bonus-assignment-abdul_wahab\Code\Parallel With Single GPU\x64\Debug\Assugnment.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lenovo\Documents\GitHub\bonus-assignment-abdul_wahab\Code\Parallel With Single GPU\x64\Debug\Assugnment.lib" /MACHINE:X64 x64\Debug\kernel.cu.obj
+         Assugnment.vcxproj -> C:\Users\lenovo\Documents\GitHub\bonus-assignment-abdul_wahab\Code\Parallel With Single GPU\x64\Debug\Assugnment.exe
+     1>Done Building Project "C:\Users\lenovo\Documents\GitHub\bonus-assignment-abdul_wahab\Code\Parallel With Single GPU\Assugnment\Assugnment.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.06
+Time Elapsed 00:00:02.30
